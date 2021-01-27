@@ -27,6 +27,7 @@ methods: {
       this.imageIndex = 0;
     }
   },
+  // quando l'indice del pallino corrisponde a quello dell'immagine visualizzata aggiungo la classe active
   dotActive: function(index) {
     if (index === this.imageIndex) {
       return 'fas fa-circle active'
