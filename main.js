@@ -26,7 +26,16 @@ methods: {
     } else {
       this.imageIndex = 0;
     }
-  }
+  },
+  dotActive: function(index) {
+    if (index === this.imageIndex) {
+      return 'fas fa-circle active'
+    } else {
+      return 'fas fa-circle'
+    }
+  },
+  dotClick: function() {
+    this.imageIndex = index;
 }
 });
 Vue.config.devtools = true;
