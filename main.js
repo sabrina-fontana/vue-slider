@@ -34,8 +34,9 @@ methods: {
       return 'fas fa-circle'
     }
   },
-  dotClick: function() {
+  dotClick: function(index) {
     this.imageIndex = index;
+  }
 }
 });
 Vue.config.devtools = true;
